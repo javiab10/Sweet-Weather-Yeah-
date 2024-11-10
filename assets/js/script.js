@@ -35,8 +35,11 @@ jQuery(document).ready(function () {
         ubi.hide();
         pronostico.hide();
         pronosticoUbi.hide();
+        $("#ciudad").val("");
         $("#cardContainer").empty();
+        $("#pronosticoContainer").empty();
         $("#tuTiempo").empty();
+        $("#pronosticoUbiContainer").empty();
         $("#btnClose").click();
     });
     
@@ -47,8 +50,11 @@ jQuery(document).ready(function () {
         ubi.hide();
         pronostico.hide();
         pronosticoUbi.hide();
+        $("#ciudad").val("");
         $("#cardContainer").empty();
+        $("#pronosticoContainer").empty();
         $("#tuTiempo").empty();
+        $("#pronosticoUbiContainer").empty();
         $("#btnClose").click();
     });
     
@@ -58,8 +64,10 @@ jQuery(document).ready(function () {
         buscar.hide();
         pronosticoUbi.hide(); 
         ubi.show();  
+        $("#ciudad").val("");
         $("#cardContainer").empty();  
-        $("#tuTiempo").empty(); 
+        $("#pronosticoContainer").empty();
+        $("#tuTiempo").empty();
         $("#pronosticoUbiContainer").empty();
         $("#btnClose").click();
     }); 
